@@ -1,0 +1,79 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+td{
+    width: 50px;
+    height: 50px;
+}
+
+.td:nth-child(2n+1){
+    background-color: darkred;
+    width: 50px;
+    height: 50px;
+}
+
+.td:nth-child(2n+1){
+    background-color: darkred;
+    width: 50px;
+    height: 50px;
+} */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+    padding:0px
+}
+
+/* body {
+    width:450px;
+} */
+
+h1{
+    color: red;
+    background-color: lightgreen;
+    height: 40px;
+    text-align:center;
+}
+
+.div1 {
+    /* background-color: red; */
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+} 
+
+.div1:nth-child(2n+1){
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+/* .div2 {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+} */
+
+/* .div2:nth-child(2n+1){
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+} */
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    min-width: 100%;
+}
