@@ -1,5 +1,6 @@
 # flask_checkerboard
 
+run in virtual environment with flask installed. In project folder, run: python server.py
 
 http://localhost:5000 - should display 8 by 8 checkerboard.
 
